@@ -1,0 +1,46 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     1116 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.055 seconds
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity3D\Unity Project\Snake-02\贪吃蛇----By 灯夜_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.772740 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2168 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.414318 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 387.
+Total: 0.214913 ms (FindLiveObjects: 0.020938 ms CreateObjectMapping: 0.022913 ms MarkObjects: 0.160790 ms  DeleteObjects: 0.009481 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.097481 ms
+
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 321.
+Total: 0.545975 ms (FindLiveObjects: 0.032395 ms CreateObjectMapping: 0.038320 ms MarkObjects: 0.367802 ms  DeleteObjects: 0.106271 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.385185 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 332.
+Total: 0.279703 ms (FindLiveObjects: 0.025283 ms CreateObjectMapping: 0.019358 ms MarkObjects: 0.230715 ms  DeleteObjects: 0.003950 ms)
+

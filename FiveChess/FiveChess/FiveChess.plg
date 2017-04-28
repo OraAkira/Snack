@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiveChess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FiveChess.res" /d "_DEBUG" /d "_AFXDLL" "D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\FiveChess.rc"" 
+Creating temporary file "C:\Users\孙广东\AppData\Local\Temp\RSPD1FB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FiveChess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\ClientDlg.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\ClientSocket.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\CMessg.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\FiveChess.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\FiveChessDoc.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\FiveChessView.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\MainFrm.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\Match.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\ServerDlg.cpp"
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\ServerSocket.cpp"
+]
+Creating command line "cl.exe @"C:\Users\孙广东\AppData\Local\Temp\RSPD1FB.tmp"" 
+Creating temporary file "C:\Users\孙广东\AppData\Local\Temp\RSPD1FC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FiveChess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\书籍和源代码\Visual C++游戏开发技术与实例\chap4\网络五子棋\FiveChess\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\孙广东\AppData\Local\Temp\RSPD1FC.tmp"" 
+Creating temporary file "C:\Users\孙广东\AppData\Local\Temp\RSPD1FD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FiveChess.pdb" /debug /machine:I386 /out:"Debug/FiveChess.exe" /pdbtype:sept 
+".\Debug\ClientDlg.obj"
+".\Debug\ClientSocket.obj"
+".\Debug\CMessg.obj"
+".\Debug\FiveChess.obj"
+".\Debug\FiveChessDoc.obj"
+".\Debug\FiveChessView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Match.obj"
+".\Debug\ServerDlg.obj"
+".\Debug\ServerSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\FiveChess.res"
+]
+Creating command line "link.exe @"C:\Users\孙广东\AppData\Local\Temp\RSPD1FD.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientDlg.cpp
+ClientSocket.cpp
+CMessg.cpp
+FiveChess.cpp
+FiveChessDoc.cpp
+FiveChessView.cpp
+MainFrm.cpp
+Match.cpp
+ServerDlg.cpp
+ServerSocket.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FiveChess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

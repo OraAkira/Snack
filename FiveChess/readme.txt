@@ -1,0 +1,1 @@
+编译FiveChess.dsw文件，在Debug目录下会生成文件FiveChess.exe，直接双击该文件，即可运行“网络五子棋”程序。

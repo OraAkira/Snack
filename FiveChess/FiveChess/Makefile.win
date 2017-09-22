@@ -1,0 +1,62 @@
+# Project: FiveChess
+# Makefile created by Dev-C++ 5.6.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = FiveChess_private.res
+OBJ      = ClientDlg.o ClientSocket.o CMessg.o FiveChess.o FiveChessDoc.o MainFrm.o FiveChessView.o StdAfx.o ServerSocket.o ServerDlg.o Match.o $(RES)
+LINKOBJ  = ClientDlg.o ClientSocket.o CMessg.o FiveChess.o FiveChessDoc.o MainFrm.o FiveChessView.o StdAfx.o ServerSocket.o ServerDlg.o Match.o $(RES)
+LIBS     = -L"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/Program Files/Dev-Cpp/Dev-Cpp/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = FiveChess.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ClientDlg.o: ClientDlg.cpp
+	$(CPP) -c ClientDlg.cpp -o ClientDlg.o $(CXXFLAGS)
+
+ClientSocket.o: ClientSocket.cpp
+	$(CPP) -c ClientSocket.cpp -o ClientSocket.o $(CXXFLAGS)
+
+CMessg.o: CMessg.cpp
+	$(CPP) -c CMessg.cpp -o CMessg.o $(CXXFLAGS)
+
+FiveChess.o: FiveChess.cpp
+	$(CPP) -c FiveChess.cpp -o FiveChess.o $(CXXFLAGS)
+
+FiveChessDoc.o: FiveChessDoc.cpp
+	$(CPP) -c FiveChessDoc.cpp -o FiveChessDoc.o $(CXXFLAGS)
+
+MainFrm.o: MainFrm.cpp
+	$(CPP) -c MainFrm.cpp -o MainFrm.o $(CXXFLAGS)
+
+FiveChessView.o: FiveChessView.cpp
+	$(CPP) -c FiveChessView.cpp -o FiveChessView.o $(CXXFLAGS)
+
+StdAfx.o: StdAfx.cpp
+	$(CPP) -c StdAfx.cpp -o StdAfx.o $(CXXFLAGS)
+
+ServerSocket.o: ServerSocket.cpp
+	$(CPP) -c ServerSocket.cpp -o ServerSocket.o $(CXXFLAGS)
+
+ServerDlg.o: ServerDlg.cpp
+	$(CPP) -c ServerDlg.cpp -o ServerDlg.o $(CXXFLAGS)
+
+Match.o: Match.cpp
+	$(CPP) -c Match.cpp -o Match.o $(CXXFLAGS)
+
+FiveChess_private.res: FiveChess_private.rc FiveChess.rc FiveChess_private.rc 
+	$(WINDRES) -i FiveChess_private.rc --input-format=rc -o FiveChess_private.res -O coff 
